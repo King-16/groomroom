@@ -106,7 +106,7 @@ $(document).ready(function(){
 	  autoplaySpeed: 5000,// швидкість скрола
 	  slidesToShow: 3,// скільки показується слайдерів
 	  slidesToScroll: 1,// по скільки скролисьтся
-	  variableWidth: true,
+	  // variableWidth: true,
 	  responsive: [// адаптив
 	    {
 	      breakpoint: 1024,

@@ -3933,6 +3933,8 @@ template {
 body {
   font-family: 'Century Gothic';
   position: relative;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 h1 {
@@ -4292,6 +4294,7 @@ img {
   background-color: #ffdc51;
   padding: 15px 0;
   position: relative;
+  line-height: 30px;
 }
 
 .spring h2:before {
@@ -4328,7 +4331,7 @@ img {
 
 .spring__wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -4343,6 +4346,8 @@ img {
   font-weight: 400;
   margin: 10px 0;
   position: relative;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .spring ul li:before {
@@ -4741,9 +4746,6 @@ img {
   z-index: 90;
   display: none;
 }
-.slick-track{
- width: auto;
-}
 
 @media (max-width: 1300px) {
   .form form {
@@ -4857,6 +4859,21 @@ img {
   }
   .form h1 {
     line-height: 40px;
+  }
+  .form__item:nth-child(1) {
+    order: 1;
+  }
+  .form__item:nth-child(2) {
+    order: 2;
+  }
+  .form__item:nth-child(3) {
+    order: 3;
+  }
+  .form__item:nth-child(4) {
+    order: 4;
+  }
+  .form__item:nth-child(5) {
+    order: 5;
   }
   .offer h2 {
     line-height: 30px;
