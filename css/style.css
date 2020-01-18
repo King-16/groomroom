@@ -4741,6 +4741,9 @@ img {
   z-index: 90;
   display: none;
 }
+.slick-track{
+ width: auto;
+}
 
 @media (max-width: 1300px) {
   .form form {
